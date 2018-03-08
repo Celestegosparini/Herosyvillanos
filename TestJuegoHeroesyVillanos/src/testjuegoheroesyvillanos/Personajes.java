@@ -6,7 +6,7 @@ public class Personajes extends Enfrentable {
     private float fuerza;
 //    private String banda;
 
-    public  Personajes(String nombre, float fuerza /*String banda*/) {
+    public Personajes(String nombre, float fuerza /*String banda*/) {
     }
 
 //    public String getNombre() {
@@ -16,12 +16,11 @@ public class Personajes extends Enfrentable {
 //    public void setNombre(String nombre) {
 //        this.nombre = nombre;
 //    }
-
-   
     public float getFuerza() {
         return fuerza;
     }
 
+   
 //    public void setFuerza(float fuerza) {
 //        this.fuerza = fuerza;
 //    }

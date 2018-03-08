@@ -24,7 +24,10 @@ public class Liga extends Enfrentable{
    public float getFuerza() {
       return this.getFuerza();
   }
-//
+ public void addEnfrentable(Enfrentable ww) {
+
+    enfrentables.add (ww);
+}
 //    public void addPersonajes (Personajes p){
 //        personaje.add(p);
 //       
